@@ -1,0 +1,148 @@
+{
+  "request": {
+    "careerName": "Data Analyst",
+    "profile": {
+      "interests": [
+        "Business",
+        "Finance"
+      ],
+      "skills": [
+        "Excel",
+        "Accounting"
+      ],
+      "educationLevel": "Undergraduate (2nd year)",
+      "fieldOfStudy": "B.Com"
+    }
+  },
+  "status": 200,
+  "ms": 13236,
+  "response": {
+    "careerName": "Data Analyst",
+    "verdict": "You have a strong foundation; focused learning will quickly bridge your skill gaps for this exciting career!",
+    "skills": [
+      {
+        "name": "SQL",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 0,
+        "tip": "Learn basic queries, joins, and aggregations."
+      },
+      {
+        "name": "Excel Advanced",
+        "category": "Tool",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 3,
+        "tip": "Master pivot tables, VLOOKUP, and data validation."
+      },
+      {
+        "name": "Python for Data",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 0,
+        "tip": "Focus on Pandas and NumPy for data manipulation."
+      },
+      {
+        "name": "Power BI/Tableau",
+        "category": "Tool",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 0,
+        "tip": "Create interactive dashboards from raw datasets."
+      },
+      {
+        "name": "Statistics Basics",
+        "category": "Knowledge",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 1,
+        "tip": "Understand descriptive and inferential statistics concepts."
+      },
+      {
+        "name": "Data Storytelling",
+        "category": "Soft skill",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 1,
+        "tip": "Practice presenting insights clearly with visuals."
+      },
+      {
+        "name": "Business Acumen",
+        "category": "Knowledge",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 3,
+        "tip": "Understand business processes and key performance indicators."
+      },
+      {
+        "name": "Problem Solving",
+        "category": "Soft skill",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 2,
+        "tip": "Break down complex problems into smaller, manageable parts."
+      },
+      {
+        "name": "Communication Skills",
+        "category": "Soft skill",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 2,
+        "tip": "Explain technical findings to non-technical audiences."
+      },
+      {
+        "name": "Financial Knowledge",
+        "category": "Knowledge",
+        "importance": "Nice-to-have",
+        "requiredLevel": 3,
+        "currentLevel": 3,
+        "tip": "Apply financial concepts to real-world data."
+      }
+    ],
+    "strengths": [
+      "Solid Excel foundation",
+      "Good understanding of business",
+      "Strong interest in finance",
+      "Undergraduate academic background"
+    ],
+    "priorityGaps": [
+      {
+        "skill": "SQL",
+        "why": "Essential for extracting and manipulating data from databases efficiently.",
+        "action": "Complete an online SQL course with hands-on projects.",
+        "weeks": 6,
+        "resource": "W3Schools SQL Tutorial"
+      },
+      {
+        "skill": "Python for Data",
+        "why": "Crucial for advanced data processing, analysis, and automation tasks.",
+        "action": "Learn Pandas and NumPy libraries for data manipulation.",
+        "weeks": 8,
+        "resource": "NPTEL Python for Data Science"
+      },
+      {
+        "skill": "Power BI/Tableau",
+        "why": "Vital for creating compelling, interactive data visualizations and dashboards.",
+        "action": "Build 2-3 interactive dashboards from raw datasets.",
+        "weeks": 6,
+        "resource": "Microsoft Learn Power BI"
+      },
+      {
+        "skill": "Statistics Basics",
+        "why": "Needed for making data-driven decisions and interpreting results accurately.",
+        "action": "Understand core concepts like hypothesis testing and regression.",
+        "weeks": 4,
+        "resource": "Khan Academy Statistics"
+      }
+    ],
+    "quickWins": [
+      "Start a free SQL online course today.",
+      "Watch Power BI introductory videos on YouTube.",
+      "Practice advanced Excel functions daily."
+    ],
+    "weeksToReady": 28,
+    "readinessScore": 43
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "request": {
+    "interests": [
+      "Medicine",
+      "Healthcare",
+      "Helping people"
+    ],
+    "skills": [
+      "Communication",
+      "Accounting"
+    ],
+    "educationLevel": "Class 12 (Commerce)",
+    "fieldOfStudy": "Commerce"
+  },
+  "status": 200,
+  "ms": 20434,
+  "response": {
+    "summary": "Your strong interest in healthcare and helping others, combined with your communication and accounting skills, opens up diverse and impactful career paths.",
+    "careers": [
+      {
+        "name": "Medical Sales Representative",
+        "stream": "Marketing",
+        "fit": {
+          "interest": 80,
+          "interestReason": "Involves working with medical products and professionals.",
+          "skills": 90,
+          "skillsReason": "Your communication skills are a primary asset here.",
+          "education": 90,
+          "educationReason": "Commerce background is well-suited for sales and marketing."
+        },
+        "whyItFits": "This role allows you to combine your interest in medicine with your strong communication skills to promote healthcare products.",
+        "description": "Promotes and sells pharmaceutical products or medical devices to doctors, hospitals, and clinics.",
+        "keySkills": [
+          "Sales",
+          "Communication",
+          "Product Knowledge",
+          "Negotiation"
+        ],
+        "salaryINR": {
+          "entry": "3-7 LPA",
+          "mid": "7-15 LPA",
+          "senior": "15-25 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Pan-India",
+          "Metro cities"
+        ],
+        "exampleEmployers": [
+          "Cipla",
+          "Sun Pharma",
+          "Dr. Reddy's Laboratories"
+        ],
+        "growthOutlook": "Consistent demand in the growing pharmaceutical sector.",
+        "matchScore": 86,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 80,
+            "reason": "Involves working with medical products and professionals.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 90,
+            "reason": "Your communication skills are a primary asset here.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 90,
+            "reason": "Commerce background is well-suited for sales and marketing.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Psychologist / Counsellor",
+        "stream": "Healthcare",
+        "fit": {
+          "interest": 95,
+          "interestReason": "Directly involves helping people with their well-being.",
+          "skills": 85,
+          "skillsReason": "Excellent communication is crucial for this role.",
+          "education": 70,
+          "educationReason": "Possible via BA Psychology after Commerce, then MA."
+        },
+        "whyItFits": "You can directly help individuals overcome challenges, utilizing your strong communication skills and empathetic nature.",
+        "description": "Helps individuals understand and overcome mental, emotional, and behavioral challenges through therapy.",
+        "keySkills": [
+          "Active Listening",
+          "Empathy",
+          "Psychology",
+          "Communication"
+        ],
+        "salaryINR": {
+          "entry": "3-6 LPA",
+          "mid": "6-14 LPA",
+          "senior": "14-25 LPA"
+        },
+        "demand": "Medium-High",
+        "topHubs": [
+          "Mumbai",
+          "Delhi",
+          "Bengaluru"
+        ],
+        "exampleEmployers": [
+          "Private Clinics",
+          "Hospitals",
+          "NGOs",
+          "Schools"
+        ],
+        "growthOutlook": "Increasing awareness drives demand for mental health professionals.",
+        "matchScore": 85,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 95,
+            "reason": "Directly involves helping people with their well-being.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 85,
+            "reason": "Excellent communication is crucial for this role.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 70,
+            "reason": "Possible via BA Psychology after Commerce, then MA.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Healthcare Business Analyst",
+        "stream": "Business & Product",
+        "fit": {
+          "interest": 85,
+          "interestReason": "Applies business acumen to the healthcare industry.",
+          "skills": 80,
+          "skillsReason": "Your accounting background provides an analytical foundation.",
+          "education": 90,
+          "educationReason": "Commerce is a strong foundation for business analytics and MBA."
+        },
+        "whyItFits": "This role combines your analytical abilities and communication skills to drive efficiency and innovation within the healthcare sector.",
+        "description": "Analyzes data and processes to improve efficiency, strategy, and decision-making in healthcare organizations.",
+        "keySkills": [
+          "Data Analysis",
+          "Problem-solving",
+          "Communication",
+          "Healthcare Domain Knowledge"
+        ],
+        "salaryINR": {
+          "entry": "6-12 LPA",
+          "mid": "12-25 LPA",
+          "senior": "25-40 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Hyderabad",
+          "Mumbai"
+        ],
+        "exampleEmployers": [
+          "Optum",
+          "Cognizant",
+          "Wipro Healthcare",
+          "TCS"
+        ],
+        "growthOutlook": "Strong growth with digital transformation in healthcare.",
+        "matchScore": 85,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 85,
+            "reason": "Applies business acumen to the healthcare industry.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 80,
+            "reason": "Your accounting background provides an analytical foundation.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 90,
+            "reason": "Commerce is a strong foundation for business analytics and MBA.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Hospital Administrator",
+        "stream": "Healthcare",
+        "fit": {
+          "interest": 85,
+          "interestReason": "Directly supports healthcare operations and patient care.",
+          "skills": 75,
+          "skillsReason": "Communication and accounting skills are highly relevant.",
+          "education": 90,
+          "educationReason": "Commerce background is excellent for management studies."
+        },
+        "whyItFits": "This role leverages your communication and accounting skills to manage healthcare facilities, aligning with your interest in medicine.",
+        "description": "Manages the daily operations, finances, and staff of hospitals or healthcare organizations.",
+        "keySkills": [
+          "Management",
+          "Operations",
+          "Financial Acumen",
+          "Communication"
+        ],
+        "salaryINR": {
+          "entry": "4-8 LPA",
+          "mid": "8-18 LPA",
+          "senior": "18-35 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Mumbai",
+          "Delhi NCR"
+        ],
+        "exampleEmployers": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Max Healthcare"
+        ],
+        "growthOutlook": "Steady growth as healthcare infrastructure expands.",
+        "matchScore": 83,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 85,
+            "reason": "Directly supports healthcare operations and patient care.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 75,
+            "reason": "Communication and accounting skills are highly relevant.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 90,
+            "reason": "Commerce background is excellent for management studies.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Public Health Specialist",
+        "stream": "Government & Public Service",
+        "fit": {
+          "interest": 90,
+          "interestReason": "Focuses on improving health outcomes for entire communities.",
+          "skills": 70,
+          "skillsReason": "Communication is vital; research and program skills can be developed.",
+          "education": 65,
+          "educationReason": "Possible with relevant UG/PG after Commerce, like social sciences."
+        },
+        "whyItFits": "You can contribute to the well-being of entire communities, aligning with your passion for helping people on a larger scale.",
+        "description": "Works to improve health outcomes and prevent disease at a community or population level.",
+        "keySkills": [
+          "Research",
+          "Communication",
+          "Program Management",
+          "Data Analysis"
+        ],
+        "salaryINR": {
+          "entry": "4-9 LPA",
+          "mid": "9-18 LPA",
+          "senior": "18-30 LPA"
+        },
+        "demand": "Medium",
+        "topHubs": [
+          "Pan-India",
+          "NGOs",
+          "Government"
+        ],
+        "exampleEmployers": [
+          "WHO",
+          "UNICEF",
+          "Government Health Departments",
+          "NGOs"
+        ],
+        "growthOutlook": "Growing focus on preventive health and community welfare.",
+        "matchScore": 77,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 90,
+            "reason": "Focuses on improving health outcomes for entire communities.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 70,
+            "reason": "Communication is vital; research and program skills can be developed.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 65,
+            "reason": "Possible with relevant UG/PG after Commerce, like social sciences.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Medical Coder",
+        "stream": "Healthcare",
+        "fit": {
+          "interest": 60,
+          "interestReason": "Indirectly contributes to healthcare administration and billing.",
+          "skills": 65,
+          "skillsReason": "Requires attention to detail and analytical skills, which you possess.",
+          "education": 80,
+          "educationReason": "Vocational courses are a direct entry path after 12th Commerce."
+        },
+        "whyItFits": "You can utilize your attention to detail and analytical skills in a crucial, behind-the-scenes role within the healthcare system.",
+        "description": "Translates medical diagnoses, procedures, and services into universal alphanumeric codes for billing and records.",
+        "keySkills": [
+          "Medical Terminology",
+          "Attention to Detail",
+          "Coding Systems (ICD, CPT)",
+          "Data Entry"
+        ],
+        "salaryINR": {
+          "entry": "2.5-5 LPA",
+          "mid": "5-10 LPA",
+          "senior": "10-18 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Chennai",
+          "Bengaluru",
+          "Hyderabad",
+          "Remote"
+        ],
+        "exampleEmployers": [
+          "Max Healthcare",
+          "Apollo Hospitals",
+          "Global Healthcare BPOs"
+        ],
+        "growthOutlook": "Essential for healthcare billing and records management.",
+        "matchScore": 67,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 60,
+            "reason": "Indirectly contributes to healthcare administration and billing.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 65,
+            "reason": "Requires attention to detail and analytical skills, which you possess.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 80,
+            "reason": "Vocational courses are a direct entry path after 12th Commerce.",
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  }
+}

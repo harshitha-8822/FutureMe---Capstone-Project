@@ -1,0 +1,321 @@
+{
+  "request": {
+    "interests": [
+      "Medicine",
+      "Healthcare",
+      "Helping people"
+    ],
+    "skills": [
+      "Communication",
+      "Accounting"
+    ],
+    "educationLevel": "Class 12 (Commerce)",
+    "fieldOfStudy": "Commerce"
+  },
+  "status": 200,
+  "ms": 25642,
+  "response": {
+    "summary": "With your passion for helping people and strong communication skills, you have a great foundation for a fulfilling career in healthcare.",
+    "careers": [
+      {
+        "name": "Psychologist / Counsellor",
+        "stream": "Healthcare",
+        "fit": {
+          "interest": 95,
+          "interestReason": "Deeply helps individuals with their mental well-being.",
+          "skills": 85,
+          "skillsReason": "Your communication skills are vital for empathy.",
+          "education": 55,
+          "educationReason": "Needs a Bachelor's in Psychology, a stream change."
+        },
+        "whyItFits": "Your strong desire to help people and excellent communication skills are perfect for supporting mental well-being.",
+        "description": "Provides therapy and support to individuals to improve mental health and well-being.",
+        "keySkills": [
+          "Active Listening",
+          "Empathy",
+          "Psychology",
+          "Communication",
+          "Assessment"
+        ],
+        "salaryINR": {
+          "entry": "3-6 LPA",
+          "mid": "6-14 LPA",
+          "senior": "14-25 LPA"
+        },
+        "demand": "Medium-High",
+        "topHubs": [
+          "Metro cities",
+          "Remote (teletherapy)"
+        ],
+        "exampleEmployers": [
+          "Fortis Healthcare",
+          "Private Clinics",
+          "NGOs",
+          "Schools"
+        ],
+        "growthOutlook": "Growing demand for mental health professionals.",
+        "matchScore": 82,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 95,
+            "reason": "Deeply helps individuals with their mental well-being.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 85,
+            "reason": "Your communication skills are vital for empathy.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 55,
+            "reason": "Needs a Bachelor's in Psychology, a stream change.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Pharmaceutical Sales Representative",
+        "stream": "Marketing",
+        "fit": {
+          "interest": 70,
+          "interestReason": "Engages with medical professionals and products.",
+          "skills": 90,
+          "skillsReason": "Your communication skills are perfect for sales.",
+          "education": 85,
+          "educationReason": "Commerce background is a direct fit."
+        },
+        "whyItFits": "You can leverage your communication skills and interest in medicine to connect healthcare products with professionals.",
+        "description": "Promotes and sells pharmaceutical products to doctors, hospitals, and pharmacies.",
+        "keySkills": [
+          "Sales",
+          "Communication",
+          "Product Knowledge",
+          "Negotiation",
+          "Relationship Building"
+        ],
+        "salaryINR": {
+          "entry": "2.5-6 LPA",
+          "mid": "6-12 LPA",
+          "senior": "12-20 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Pan-India",
+          "Metro cities"
+        ],
+        "exampleEmployers": [
+          "Cipla",
+          "Sun Pharma",
+          "Dr. Reddy's Laboratories",
+          "Lupin"
+        ],
+        "growthOutlook": "Consistent demand in a growing industry.",
+        "matchScore": 81,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 70,
+            "reason": "Engages with medical professionals and products.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 90,
+            "reason": "Your communication skills are perfect for sales.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 85,
+            "reason": "Commerce background is a direct fit.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Healthcare Administrator",
+        "stream": "Business & Product",
+        "fit": {
+          "interest": 90,
+          "interestReason": "Directly manages healthcare services, helping many people.",
+          "skills": 75,
+          "skillsReason": "Your communication and accounting skills are valuable.",
+          "education": 70,
+          "educationReason": "Commerce background is good for management."
+        },
+        "whyItFits": "You can combine your interest in healthcare with your management and communication skills to improve patient care.",
+        "description": "Manages operations, finances, and staff in hospitals or healthcare organizations.",
+        "keySkills": [
+          "Communication",
+          "Financial Management",
+          "Operations",
+          "Leadership"
+        ],
+        "salaryINR": {
+          "entry": "4-8 LPA",
+          "mid": "8-18 LPA",
+          "senior": "18-35 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Mumbai",
+          "Delhi NCR",
+          "Hyderabad"
+        ],
+        "exampleEmployers": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Max Healthcare"
+        ],
+        "growthOutlook": "Steady growth as healthcare sector expands.",
+        "matchScore": 80,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 90,
+            "reason": "Directly manages healthcare services, helping many people.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 75,
+            "reason": "Your communication and accounting skills are valuable.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 70,
+            "reason": "Commerce background is good for management.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Public Health Specialist",
+        "stream": "Government & Public Service",
+        "fit": {
+          "interest": 90,
+          "interestReason": "Focuses on community health and disease prevention.",
+          "skills": 80,
+          "skillsReason": "Your communication skills are vital for outreach.",
+          "education": 60,
+          "educationReason": "Needs a relevant bachelor's or master's degree."
+        },
+        "whyItFits": "Your desire to help people can be applied broadly by improving community health through education and policy.",
+        "description": "Works to improve community health through education, policy, and disease prevention programs.",
+        "keySkills": [
+          "Epidemiology",
+          "Health Education",
+          "Policy Analysis",
+          "Communication",
+          "Research"
+        ],
+        "salaryINR": {
+          "entry": "3-7 LPA",
+          "mid": "7-15 LPA",
+          "senior": "15-25 LPA"
+        },
+        "demand": "Medium-High",
+        "topHubs": [
+          "Delhi",
+          "Mumbai",
+          "Bengaluru",
+          "State Capitals",
+          "NGOs"
+        ],
+        "exampleEmployers": [
+          "WHO India",
+          "UNICEF",
+          "Public Health Foundations",
+          "Government Health Depts"
+        ],
+        "growthOutlook": "Increasing focus on preventive healthcare.",
+        "matchScore": 79,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 90,
+            "reason": "Focuses on community health and disease prevention.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 80,
+            "reason": "Your communication skills are vital for outreach.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 60,
+            "reason": "Needs a relevant bachelor's or master's degree.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Medical Coder",
+        "stream": "Vocational",
+        "fit": {
+          "interest": 65,
+          "interestReason": "Contributes to healthcare administration indirectly.",
+          "skills": 80,
+          "skillsReason": "Your accounting skills are good for detail.",
+          "education": 90,
+          "educationReason": "Your Commerce background is well-suited for this."
+        },
+        "whyItFits": "You can apply your detail-oriented accounting skills within the healthcare industry, ensuring accurate billing.",
+        "description": "Translates medical diagnoses and procedures into universal alphanumeric codes for billing and records.",
+        "keySkills": [
+          "Medical Terminology",
+          "Anatomy",
+          "Coding Systems (ICD, CPT)",
+          "Attention to Detail"
+        ],
+        "salaryINR": {
+          "entry": "2.5-5 LPA",
+          "mid": "5-9 LPA",
+          "senior": "9-15 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Hyderabad",
+          "Chennai",
+          "Pune",
+          "Remote"
+        ],
+        "exampleEmployers": [
+          "Max Healthcare",
+          "Apollo Hospitals",
+          "Global Healthcare BPOs"
+        ],
+        "growthOutlook": "Steady demand due to healthcare data needs.",
+        "matchScore": 77,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 65,
+            "reason": "Contributes to healthcare administration indirectly.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 80,
+            "reason": "Your accounting skills are good for detail.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 90,
+            "reason": "Your Commerce background is well-suited for this.",
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  }
+}

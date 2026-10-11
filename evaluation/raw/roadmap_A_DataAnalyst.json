@@ -1,0 +1,173 @@
+{
+  "request": {
+    "careerName": "Data Analyst",
+    "profile": {
+      "interests": [
+        "Business",
+        "Finance"
+      ],
+      "skills": [
+        "Excel",
+        "Accounting"
+      ],
+      "educationLevel": "Undergraduate (2nd year)",
+      "fieldOfStudy": "B.Com"
+    },
+    "gapSkills": [
+      "SQL",
+      "Python for Data",
+      "Power BI/Tableau",
+      "Statistics Basics"
+    ]
+  },
+  "status": 200,
+  "ms": 15853,
+  "response": {
+    "careerName": "Data Analyst",
+    "overview": "Become a Data Analyst leveraging your business acumen. This roadmap guides you from Excel to advanced data tools, preparing you for a thriving career in data-driven decision making.",
+    "timelineMonths": 12,
+    "phases": [
+      {
+        "title": "Phase 1: Data Foundations (Months 1-3)",
+        "goal": "Master SQL and Python basics for data manipulation and initial exploration.",
+        "skillsToLearn": [
+          "SQL (SELECT, FROM, WHERE, GROUP BY, JOINs)",
+          "Python Basics (variables, data types, control flow)",
+          "Pandas (intro to DataFrames, basic operations)",
+          "Excel for Data Analysis (advanced functions)"
+        ],
+        "milestone": "Can query complex databases and perform basic data cleaning/transformation in Python.",
+        "projects": [
+          "Analyze a sales dataset using SQL queries for trends.",
+          "Clean and prepare a small dataset (e.g., student grades) using Python."
+        ],
+        "resources": [
+          {
+            "name": "Google Data Analytics Professional Certificate",
+            "type": "Course",
+            "note": "Comprehensive intro to data analysis."
+          },
+          {
+            "name": "W3Schools SQL Tutorial",
+            "type": "Platform",
+            "note": "Interactive SQL tutorials for beginners."
+          },
+          {
+            "name": "Python for Everybody (Coursera/YouTube)",
+            "type": "Course",
+            "note": "Python basics for beginners."
+          }
+        ]
+      },
+      {
+        "title": "Phase 2: Data Manipulation & Statistics (Months 4-6)",
+        "goal": "Proficiently clean, transform, and analyze data using Python, understand core statistics.",
+        "skillsToLearn": [
+          "Advanced Pandas (merge, pivot, apply)",
+          "NumPy for numerical operations",
+          "Descriptive Statistics (mean, median, std dev)",
+          "Inferential Statistics (hypothesis testing basics)"
+        ],
+        "milestone": "Perform exploratory data analysis and basic statistical tests on real datasets.",
+        "projects": [
+          "Analyze a financial dataset (e.g., stock prices) to identify trends.",
+          "Conduct A/B test analysis on marketing campaign data."
+        ],
+        "resources": [
+          {
+            "name": "NPTEL: Introduction to Data Science",
+            "type": "Course",
+            "note": "IIT Madras, foundational concepts."
+          },
+          {
+            "name": "Python for Data Analysis by Wes McKinney",
+            "type": "Book",
+            "note": "Comprehensive guide for Python data."
+          },
+          {
+            "name": "Khan Academy: Statistics and Probability",
+            "type": "Platform",
+            "note": "Free, excellent for statistics basics."
+          }
+        ]
+      },
+      {
+        "title": "Phase 3: Visualization & Business Intelligence (Months 7-9)",
+        "goal": "Create insightful dashboards and reports using business intelligence tools like Power BI/Tableau.",
+        "skillsToLearn": [
+          "Power BI (ETL, DAX, visualizations, dashboard design)",
+          "Tableau (data connection, calculations, interactive dashboards)",
+          "Data Storytelling and Presentation",
+          "Basic Cloud Concepts (Azure Data Factory/AWS Glue intro)"
+        ],
+        "milestone": "Develop interactive, professional-grade dashboards from raw data for business insights.",
+        "projects": [
+          "Build a sales performance dashboard in Power BI from a transactional database.",
+          "Create a financial trend report and forecast visualization in Tableau."
+        ],
+        "resources": [
+          {
+            "name": "Microsoft Learn: Power BI Data Analyst Learning Path",
+            "type": "Course",
+            "note": "Official learning path for Power BI."
+          },
+          {
+            "name": "Tableau Public Resources",
+            "type": "Platform",
+            "note": "Free resources for Tableau learning."
+          },
+          {
+            "name": "YouTube: Guy in a Cube (Power BI)",
+            "type": "YouTube",
+            "note": "Practical tips for data narratives."
+          }
+        ]
+      },
+      {
+        "title": "Phase 4: Advanced Concepts & Portfolio Building (Months 10-12)",
+        "goal": "Apply skills to complex problems, build a strong portfolio, and prepare for interviews.",
+        "skillsToLearn": [
+          "Advanced SQL (window functions, stored procedures)",
+          "Data Warehousing Concepts (star schema, ETL)",
+          "Version Control (Git/GitHub)",
+          "Communication and Presentation Skills"
+        ],
+        "milestone": "Complete 2-3 end-to-end data analysis projects for a strong portfolio.",
+        "projects": [
+          "End-to-end customer churn prediction project with dashboard.",
+          "Financial fraud detection analysis and reporting."
+        ],
+        "resources": [
+          {
+            "name": "Kaggle",
+            "type": "Platform",
+            "note": "Source for datasets and project ideas."
+          },
+          {
+            "name": "SQL Cookbook by Anthony Molinaro",
+            "type": "Book",
+            "note": "Advanced SQL techniques and examples."
+          },
+          {
+            "name": "LinkedIn Learning: Data Storytelling",
+            "type": "Course",
+            "note": "Enhance presentation of insights."
+          }
+        ]
+      }
+    ],
+    "firstJobStrategy": "Leverage campus placements and internships aggressively. Build a strong portfolio with finance/business-focused projects. Network on LinkedIn, apply via Naukri/Internshala, and seek referrals. Practice SQL/Python/BI case studies and aptitude tests for interviews.",
+    "certifications": [
+      "Microsoft Certified: Power BI Data Analyst Associate",
+      "Google Data Analytics Professional Certificate"
+    ],
+    "entryExams": [],
+    "estimatedStartingSalaryINR": "₹3 LPA - ₹6 LPA",
+    "portfolioTips": [
+      "Showcase end-to-end projects on GitHub with clear documentation.",
+      "Include interactive dashboards on Tableau Public or Power BI Service.",
+      "Focus on projects relevant to business and finance domains.",
+      "Clearly explain your thought process, methodologies, and findings for each project."
+    ]
+  }
+}

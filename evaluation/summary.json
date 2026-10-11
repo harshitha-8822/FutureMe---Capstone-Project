@@ -1,0 +1,390 @@
+{
+  "runAt": "2026-10-09T14:20:41.365Z",
+  "model": "gemini-2.5-flash",
+  "unitScoring": [
+    {
+      "name": "All parts given",
+      "fit": {
+        "interest": 90,
+        "skills": 60,
+        "education": 80
+      },
+      "expected": 77,
+      "got": 77,
+      "pass": true
+    },
+    {
+      "name": "Skills omitted -> rescaled",
+      "fit": {
+        "interest": 90,
+        "skills": 60,
+        "education": 80
+      },
+      "expected": 86,
+      "got": 86,
+      "pass": true
+    },
+    {
+      "name": "Nothing given -> all parts used",
+      "fit": {
+        "interest": 90,
+        "skills": 60,
+        "education": 80
+      },
+      "expected": 77,
+      "got": 77,
+      "pass": true
+    },
+    {
+      "name": "Education gate triggers cap",
+      "fit": {
+        "interest": 95,
+        "skills": 40,
+        "education": 5
+      },
+      "expected": 25,
+      "got": 25,
+      "pass": true
+    },
+    {
+      "name": "Education 40 (gate not hit)",
+      "fit": {
+        "interest": 95,
+        "skills": 40,
+        "education": 40
+      },
+      "expected": 62,
+      "got": 62,
+      "pass": true
+    },
+    {
+      "name": "Low education, low total (no cap)",
+      "fit": {
+        "interest": 40,
+        "skills": 30,
+        "education": 39
+      },
+      "expected": 36,
+      "got": 36,
+      "pass": true
+    },
+    {
+      "name": "Education blank -> no cap",
+      "fit": {
+        "interest": 95,
+        "skills": 40,
+        "education": 5
+      },
+      "expected": 69,
+      "got": 69,
+      "pass": true
+    },
+    {
+      "name": "Out-of-range inputs clamped",
+      "fit": {
+        "interest": 140,
+        "skills": -20,
+        "education": 100
+      },
+      "expected": 65,
+      "got": 65,
+      "pass": true
+    }
+  ],
+  "unitReadiness": [
+    {
+      "name": "All requirements met",
+      "expected": 100,
+      "got": 100,
+      "pass": true
+    },
+    {
+      "name": "Nothing met",
+      "expected": 0,
+      "got": 0,
+      "pass": true
+    },
+    {
+      "name": "Must-have weighted double",
+      "expected": 67,
+      "got": 67,
+      "pass": true
+    },
+    {
+      "name": "Surplus level gives no extra credit",
+      "expected": 50,
+      "got": 50,
+      "pass": true
+    }
+  ],
+  "recommendation": {
+    "A": {
+      "profile": {
+        "interests": [
+          "Business",
+          "Finance"
+        ],
+        "skills": [
+          "Excel",
+          "Accounting"
+        ],
+        "educationLevel": "Undergraduate (2nd year)",
+        "fieldOfStudy": "B.Com"
+      },
+      "successfulRuns": 3,
+      "latencyMs": [
+        22648,
+        14834,
+        24292
+      ],
+      "careersPerRun": [
+        6,
+        6,
+        6
+      ],
+      "careerNames": [
+        [
+          "Chartered Accountant (CA) (93)",
+          "Financial Analyst (92)",
+          "Investment Banking Analyst (85)",
+          "Business Analyst (80)",
+          "Digital Marketing Specialist (66)",
+          "Civil Services (IAS/IPS/IFS) (64)"
+        ],
+        [
+          "Chartered Accountant (CA) (93)",
+          "Financial Analyst (90)",
+          "Investment Banking Analyst (84)",
+          "Business Analyst (80)",
+          "Product Manager (FinTech) (72)",
+          "Digital Marketing Specialist (Analytics Focus) (63)"
+        ],
+        [
+          "Chartered Accountant (CA) (93)",
+          "Financial Analyst (89)",
+          "Investment Banking Analyst (86)",
+          "Business Analyst (78)",
+          "Product Manager (71)",
+          "Digital Marketing Specialist (60)"
+        ]
+      ],
+      "formulaAgreement": "18/18",
+      "cappedCareers": [],
+      "jaccardBetweenRuns": [
+        0.71,
+        0.71,
+        1
+      ],
+      "meanJaccard": 0.81,
+      "repeatedCareers": [
+        {
+          "name": "chartered accountant",
+          "scores": [
+            93,
+            93,
+            93
+          ],
+          "range": 0
+        },
+        {
+          "name": "financial analyst",
+          "scores": [
+            92,
+            90,
+            89
+          ],
+          "range": 3
+        },
+        {
+          "name": "investment banking analyst",
+          "scores": [
+            85,
+            84,
+            86
+          ],
+          "range": 2
+        },
+        {
+          "name": "business analyst",
+          "scores": [
+            80,
+            80,
+            78
+          ],
+          "range": 2
+        },
+        {
+          "name": "digital marketing specialist",
+          "scores": [
+            66,
+            63,
+            60
+          ],
+          "range": 6
+        },
+        {
+          "name": "product manager",
+          "scores": [
+            72,
+            71
+          ],
+          "range": 1
+        }
+      ],
+      "maxScoreRange": 6,
+      "meanScoreRange": 2.3
+    },
+    "B": {
+      "profile": {
+        "interests": [
+          "Medicine",
+          "Healthcare",
+          "Helping people"
+        ],
+        "skills": [
+          "Communication",
+          "Accounting"
+        ],
+        "educationLevel": "Class 12 (Commerce)",
+        "fieldOfStudy": "Commerce"
+      },
+      "successfulRuns": 3,
+      "latencyMs": [
+        25642,
+        19861,
+        20434
+      ],
+      "careersPerRun": [
+        5,
+        6,
+        6
+      ],
+      "careerNames": [
+        [
+          "Psychologist / Counsellor (82)",
+          "Pharmaceutical Sales Representative (81)",
+          "Healthcare Administrator (80)",
+          "Public Health Specialist (79)",
+          "Medical Coder (77)"
+        ],
+        [
+          "Hospital Administrator / Healthcare Manager (88)",
+          "Psychologist / Counsellor (88)",
+          "Pharmaceutical Sales Representative (87)",
+          "Financial Analyst (Healthcare Sector) (85)",
+          "Public Health Specialist (80)",
+          "Medical Coder / Biller (79)"
+        ],
+        [
+          "Medical Sales Representative (86)",
+          "Psychologist / Counsellor (85)",
+          "Healthcare Business Analyst (85)",
+          "Hospital Administrator (83)",
+          "Public Health Specialist (77)",
+          "Medical Coder (67)"
+        ]
+      ],
+      "formulaAgreement": "17/17",
+      "cappedCareers": [],
+      "jaccardBetweenRuns": [
+        0.38,
+        0.38,
+        0.2
+      ],
+      "meanJaccard": 0.32,
+      "repeatedCareers": [
+        {
+          "name": "psychologist counsellor",
+          "scores": [
+            82,
+            88,
+            85
+          ],
+          "range": 6
+        },
+        {
+          "name": "pharmaceutical sales representative",
+          "scores": [
+            81,
+            87
+          ],
+          "range": 6
+        },
+        {
+          "name": "public health specialist",
+          "scores": [
+            79,
+            80,
+            77
+          ],
+          "range": 3
+        },
+        {
+          "name": "medical coder",
+          "scores": [
+            77,
+            67
+          ],
+          "range": 10
+        }
+      ],
+      "maxScoreRange": 10,
+      "meanScoreRange": 6.3
+    }
+  },
+  "skillGap": [
+    {
+      "tag": "gap_A_DataAnalyst",
+      "careerName": "Data Analyst",
+      "latencyMs": 13236,
+      "skills": 10,
+      "levelsInRange": true,
+      "readinessReturned": 43,
+      "readinessRecomputed": 43,
+      "statusCounts": {
+        "gap": 5,
+        "improve": 4,
+        "ready": 1
+      },
+      "priorityGaps": 4,
+      "quickWins": 3,
+      "weeksToReady": 28
+    },
+    {
+      "tag": "gap_C_SoftwareEngineer",
+      "careerName": "Software Engineer",
+      "latencyMs": 22695,
+      "skills": 11,
+      "levelsInRange": true,
+      "readinessReturned": 67,
+      "readinessRecomputed": 67,
+      "statusCounts": {
+        "gap": 3,
+        "improve": 5,
+        "ready": 3
+      },
+      "priorityGaps": 4,
+      "quickWins": 3,
+      "weeksToReady": 14
+    }
+  ],
+  "roadmap": {
+    "latencyMs": 15853,
+    "phases": 4,
+    "timelineMonths": 12,
+    "gapSkills": [
+      "SQL",
+      "Python for Data",
+      "Power BI/Tableau",
+      "Statistics Basics"
+    ],
+    "gapSkillsCoveredInPhases": "4/4",
+    "covered": [
+      "SQL",
+      "Python for Data",
+      "Power BI/Tableau",
+      "Statistics Basics"
+    ],
+    "hasFirstJobStrategy": true
+  }
+}

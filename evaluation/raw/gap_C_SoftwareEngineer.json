@@ -1,0 +1,157 @@
+{
+  "request": {
+    "careerName": "Software Engineer",
+    "profile": {
+      "interests": [
+        "Technology"
+      ],
+      "skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Git"
+      ],
+      "educationLevel": "Undergraduate (final year)",
+      "fieldOfStudy": "B.Tech CSE"
+    }
+  },
+  "status": 200,
+  "ms": 22695,
+  "response": {
+    "careerName": "Software Engineer",
+    "verdict": "You have a solid foundation; focus on practical application and problem-solving to excel in software engineering.",
+    "skills": [
+      {
+        "name": "Data Structures & Algorithms",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 2,
+        "tip": "Practice daily on LeetCode or HackerRank."
+      },
+      {
+        "name": "Python Programming",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 3,
+        "tip": "Build small projects to deepen understanding."
+      },
+      {
+        "name": "Java Programming",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 3,
+        "tip": "Explore advanced features and design patterns."
+      },
+      {
+        "name": "SQL & Databases",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 3,
+        "tip": "Learn database design and optimization techniques."
+      },
+      {
+        "name": "Git Version Control",
+        "category": "Tool",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 3,
+        "tip": "Collaborate on open-source projects using Git."
+      },
+      {
+        "name": "Object-Oriented Programming",
+        "category": "Knowledge",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 3,
+        "tip": "Apply OOP principles in your project designs."
+      },
+      {
+        "name": "Web Framework (Backend)",
+        "category": "Technical",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 0,
+        "tip": "Choose one framework and build a full-stack project."
+      },
+      {
+        "name": "Operating Systems & Networking",
+        "category": "Knowledge",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 2,
+        "tip": "Review core concepts and their practical applications."
+      },
+      {
+        "name": "Problem Solving",
+        "category": "Soft skill",
+        "importance": "Must-have",
+        "requiredLevel": 4,
+        "currentLevel": 2,
+        "tip": "Regularly solve diverse coding challenges."
+      },
+      {
+        "name": "Software Testing & Debugging",
+        "category": "Technical",
+        "importance": "Nice-to-have",
+        "requiredLevel": 2,
+        "currentLevel": 1,
+        "tip": "Learn unit testing and use a debugger effectively."
+      },
+      {
+        "name": "Communication Skills",
+        "category": "Soft skill",
+        "importance": "Must-have",
+        "requiredLevel": 3,
+        "currentLevel": 2,
+        "tip": "Practice explaining technical concepts clearly."
+      }
+    ],
+    "strengths": [
+      "Strong programming language base",
+      "Familiar with version control",
+      "B.Tech CSE final year",
+      "Flexible work location"
+    ],
+    "priorityGaps": [
+      {
+        "skill": "Data Structures & Algorithms",
+        "why": "Essential for cracking coding interviews.",
+        "action": "Practice daily on LeetCode or HackerRank.",
+        "weeks": 10,
+        "resource": "GeeksforGeeks, NPTEL"
+      },
+      {
+        "skill": "Web Framework (Backend)",
+        "why": "Build real-world projects, demonstrate practical skills.",
+        "action": "Learn a popular framework (e.g., Django/Spring Boot), build a project.",
+        "weeks": 7,
+        "resource": "YouTube tutorials, freeCodeCamp"
+      },
+      {
+        "skill": "Problem Solving",
+        "why": "Crucial for tackling complex coding challenges.",
+        "action": "Solve diverse problems, analyze solutions.",
+        "weeks": 9,
+        "resource": "HackerRank, LeetCode"
+      },
+      {
+        "skill": "Operating Systems & Networking",
+        "why": "Understand system architecture and network communication.",
+        "action": "Review core concepts, solve related problems.",
+        "weeks": 5,
+        "resource": "NPTEL, GateSmashers YouTube"
+      }
+    ],
+    "quickWins": [
+      "Start daily DSA practice on coding platforms.",
+      "Choose a backend web framework to learn.",
+      "Review basic OS and networking concepts."
+    ],
+    "weeksToReady": 14,
+    "readinessScore": 67
+  }
+}

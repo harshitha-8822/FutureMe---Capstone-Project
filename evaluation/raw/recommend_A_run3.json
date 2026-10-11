@@ -1,0 +1,398 @@
+{
+  "request": {
+    "interests": [
+      "Business",
+      "Finance"
+    ],
+    "skills": [
+      "Excel",
+      "Accounting"
+    ],
+    "educationLevel": "Undergraduate (2nd year)",
+    "fieldOfStudy": "B.Com"
+  },
+  "status": 200,
+  "ms": 24292,
+  "response": {
+    "summary": "Your strong foundation in Business and Finance, coupled with excellent Excel and Accounting skills, opens doors to many rewarding career paths.",
+    "careers": [
+      {
+        "name": "Chartered Accountant (CA)",
+        "stream": "Commerce & Finance",
+        "fit": {
+          "interest": 95,
+          "interestReason": "Directly aligns with your strong finance and business interests.",
+          "skills": 90,
+          "skillsReason": "Your accounting skills are a perfect match.",
+          "education": 95,
+          "educationReason": "B.Com provides an excellent academic foundation."
+        },
+        "whyItFits": "This path directly uses your strong accounting skills and aligns with your deep finance interest.",
+        "description": "Become a financial expert, handling audits, taxation, and financial advisory for businesses.",
+        "keySkills": [
+          "Accounting",
+          "Taxation",
+          "Auditing",
+          "Financial Analysis",
+          "Regulatory Compliance"
+        ],
+        "salaryINR": {
+          "entry": "7-12 LPA",
+          "mid": "12-25 LPA",
+          "senior": "25-50 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Mumbai",
+          "Delhi",
+          "Bengaluru",
+          "Chennai"
+        ],
+        "exampleEmployers": [
+          "PwC",
+          "Deloitte",
+          "EY",
+          "KPMG",
+          "Grant Thornton"
+        ],
+        "growthOutlook": "Steady demand with strong career progression.",
+        "matchScore": 93,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 95,
+            "reason": "Directly aligns with your strong finance and business interests.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 90,
+            "reason": "Your accounting skills are a perfect match.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 95,
+            "reason": "B.Com provides an excellent academic foundation.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Financial Analyst",
+        "stream": "Commerce & Finance",
+        "fit": {
+          "interest": 88,
+          "interestReason": "Aligns well with your finance and business analysis interests.",
+          "skills": 90,
+          "skillsReason": "Directly leverages your strong Excel and accounting skills.",
+          "education": 90,
+          "educationReason": "B.Com is a highly relevant and direct qualification."
+        },
+        "whyItFits": "Utilizes your accounting and Excel skills to analyze financial data and inform business decisions.",
+        "description": "Analyze financial data, prepare reports, and provide insights to guide investment and business strategy.",
+        "keySkills": [
+          "Financial Reporting",
+          "Data Analysis",
+          "Excel",
+          "Valuation",
+          "Budgeting",
+          "Forecasting"
+        ],
+        "salaryINR": {
+          "entry": "4-8 LPA",
+          "mid": "8-18 LPA",
+          "senior": "18-35 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Mumbai",
+          "Gurugram",
+          "Pune"
+        ],
+        "exampleEmployers": [
+          "TCS",
+          "Infosys",
+          "Wipro",
+          "HDFC Bank",
+          "ICICI Bank",
+          "Accenture"
+        ],
+        "growthOutlook": "Consistent demand across various industries.",
+        "matchScore": 89,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 88,
+            "reason": "Aligns well with your finance and business analysis interests.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 90,
+            "reason": "Directly leverages your strong Excel and accounting skills.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 90,
+            "reason": "B.Com is a highly relevant and direct qualification.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Investment Banking Analyst",
+        "stream": "Commerce & Finance",
+        "fit": {
+          "interest": 90,
+          "interestReason": "Perfectly matches your strong finance and business interests.",
+          "skills": 85,
+          "skillsReason": "Your Excel and accounting skills are highly valuable.",
+          "education": 80,
+          "educationReason": "B.Com is a strong foundation for this field."
+        },
+        "whyItFits": "Leverages your finance interest and strong Excel skills for high-stakes financial deals.",
+        "description": "Advise corporations on mergers, acquisitions, and capital raising, performing complex financial analysis.",
+        "keySkills": [
+          "Financial Modeling",
+          "Valuation",
+          "Excel",
+          "Accounting",
+          "Corporate Finance",
+          "Presentation Skills"
+        ],
+        "salaryINR": {
+          "entry": "8-16 LPA",
+          "mid": "16-40 LPA",
+          "senior": "40-80 LPA"
+        },
+        "demand": "Medium-High",
+        "topHubs": [
+          "Mumbai",
+          "Gurugram",
+          "Bengaluru"
+        ],
+        "exampleEmployers": [
+          "Goldman Sachs",
+          "JP Morgan",
+          "Morgan Stanley",
+          "Axis Capital",
+          "ICICI Securities"
+        ],
+        "growthOutlook": "High growth potential in a competitive field.",
+        "matchScore": 86,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 90,
+            "reason": "Perfectly matches your strong finance and business interests.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 85,
+            "reason": "Your Excel and accounting skills are highly valuable.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 80,
+            "reason": "B.Com is a strong foundation for this field.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Business Analyst",
+        "stream": "Business & Product",
+        "fit": {
+          "interest": 85,
+          "interestReason": "Matches your interest in business problem-solving and strategy.",
+          "skills": 75,
+          "skillsReason": "Your Excel skills are a great start for analysis.",
+          "education": 70,
+          "educationReason": "B.Com offers a solid business and analytical foundation."
+        },
+        "whyItFits": "Applies your business interest and analytical skills to solve organizational problems.",
+        "description": "Bridge the gap between business needs and technology solutions, analyzing processes and data.",
+        "keySkills": [
+          "Data Analysis",
+          "Process Mapping",
+          "Requirements Gathering",
+          "SQL",
+          "Communication",
+          "Excel"
+        ],
+        "salaryINR": {
+          "entry": "4-9 LPA",
+          "mid": "9-20 LPA",
+          "senior": "20-40 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Hyderabad",
+          "Pune",
+          "Mumbai"
+        ],
+        "exampleEmployers": [
+          "Accenture",
+          "Deloitte",
+          "TCS",
+          "Capgemini",
+          "Infosys"
+        ],
+        "growthOutlook": "Strong and growing demand in IT and consulting.",
+        "matchScore": 78,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 85,
+            "reason": "Matches your interest in business problem-solving and strategy.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 75,
+            "reason": "Your Excel skills are a great start for analysis.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 70,
+            "reason": "B.Com offers a solid business and analytical foundation.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Product Manager",
+        "stream": "Business & Product",
+        "fit": {
+          "interest": 80,
+          "interestReason": "Aligns with your strong business interest and strategic thinking.",
+          "skills": 65,
+          "skillsReason": "Excel is useful, but product management skills need building.",
+          "education": 65,
+          "educationReason": "B.Com provides a business base, often needs further specialization."
+        },
+        "whyItFits": "Combines your business interest with strategic thinking to guide product development.",
+        "description": "Define product vision, strategy, and roadmap, overseeing the entire product lifecycle from concept to launch.",
+        "keySkills": [
+          "Product Strategy",
+          "User Empathy",
+          "Market Research",
+          "Analytics",
+          "Communication",
+          "Project Management"
+        ],
+        "salaryINR": {
+          "entry": "8-18 LPA",
+          "mid": "18-40 LPA",
+          "senior": "40-70 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Bengaluru",
+          "Gurugram",
+          "Mumbai"
+        ],
+        "exampleEmployers": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Flipkart",
+          "Swiggy",
+          "Zomato"
+        ],
+        "growthOutlook": "Excellent growth for those with strong business and tech acumen.",
+        "matchScore": 71,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 80,
+            "reason": "Aligns with your strong business interest and strategic thinking.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 65,
+            "reason": "Excel is useful, but product management skills need building.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 65,
+            "reason": "B.Com provides a business base, often needs further specialization.",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "name": "Digital Marketing Specialist",
+        "stream": "Marketing",
+        "fit": {
+          "interest": 65,
+          "interestReason": "Your business interest applies to understanding market dynamics.",
+          "skills": 55,
+          "skillsReason": "Excel helps with analytics, but new marketing skills needed.",
+          "education": 60,
+          "educationReason": "B.Com gives business context, but needs marketing focus."
+        },
+        "whyItFits": "Allows you to apply your business acumen in a creative and analytical marketing role.",
+        "description": "Plan and execute online marketing campaigns using various digital channels to reach target audiences.",
+        "keySkills": [
+          "SEO",
+          "SEM (Google Ads)",
+          "Social Media Marketing",
+          "Content Marketing",
+          "Analytics",
+          "Communication"
+        ],
+        "salaryINR": {
+          "entry": "2.5-6 LPA",
+          "mid": "6-15 LPA",
+          "senior": "15-25 LPA"
+        },
+        "demand": "High",
+        "topHubs": [
+          "Mumbai",
+          "Bengaluru",
+          "Delhi NCR",
+          "Gurugram"
+        ],
+        "exampleEmployers": [
+          "Wipro",
+          "HCLTech",
+          "Publicis Sapient",
+          "Ogilvy",
+          "Various Startups"
+        ],
+        "growthOutlook": "Rapid growth due to increasing digital presence.",
+        "matchScore": 60,
+        "matchBreakdown": [
+          {
+            "key": "interest",
+            "score": 65,
+            "reason": "Your business interest applies to understanding market dynamics.",
+            "weight": 40
+          },
+          {
+            "key": "skills",
+            "score": 55,
+            "reason": "Excel helps with analytics, but new marketing skills needed.",
+            "weight": 35
+          },
+          {
+            "key": "education",
+            "score": 60,
+            "reason": "B.Com gives business context, but needs marketing focus.",
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  }
+}
