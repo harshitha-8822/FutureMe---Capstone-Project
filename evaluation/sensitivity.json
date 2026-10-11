@@ -1,0 +1,65 @@
+{
+  "runs": 6,
+  "results": [
+    {
+      "scheme": "Default",
+      "weights": "0.40 / 0.35 / 0.25",
+      "meanKendallTau": 1,
+      "minKendallTau": 1,
+      "topCareerUnchanged": "6/6",
+      "meanTop3Overlap": 1,
+      "meanAbsScoreChange": 0,
+      "maxAbsScoreChange": 0
+    },
+    {
+      "scheme": "Equal",
+      "weights": "0.33 / 0.33 / 0.33",
+      "meanKendallTau": 0.82,
+      "minKendallTau": 0.36,
+      "topCareerUnchanged": "5/6",
+      "meanTop3Overlap": 1,
+      "meanAbsScoreChange": 0.8,
+      "maxAbsScoreChange": 4
+    },
+    {
+      "scheme": "Interest-heavy",
+      "weights": "0.50 / 0.30 / 0.20",
+      "meanKendallTau": 0.89,
+      "minKendallTau": 0.6,
+      "topCareerUnchanged": "4/6",
+      "meanTop3Overlap": 0.94,
+      "meanAbsScoreChange": 1.2,
+      "maxAbsScoreChange": 2
+    },
+    {
+      "scheme": "Skills-heavy",
+      "weights": "0.30 / 0.45 / 0.25",
+      "meanKendallTau": 0.89,
+      "minKendallTau": 0.6,
+      "topCareerUnchanged": "5/6",
+      "meanTop3Overlap": 1,
+      "meanAbsScoreChange": 0.9,
+      "maxAbsScoreChange": 2
+    },
+    {
+      "scheme": "Education-heavy",
+      "weights": "0.35 / 0.30 / 0.35",
+      "meanKendallTau": 0.78,
+      "minKendallTau": 0.32,
+      "topCareerUnchanged": "5/6",
+      "meanTop3Overlap": 0.89,
+      "meanAbsScoreChange": 1.1,
+      "maxAbsScoreChange": 4
+    },
+    {
+      "scheme": "Interest + skills only",
+      "weights": "0.50 / 0.50 / 0.00",
+      "meanKendallTau": 0.82,
+      "minKendallTau": 0.4,
+      "topCareerUnchanged": "4/6",
+      "meanTop3Overlap": 0.94,
+      "meanAbsScoreChange": 2.3,
+      "maxAbsScoreChange": 9
+    }
+  ]
+}
